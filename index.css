@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+}
+body{
+    background: url(bg.jpg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{ 
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.container h1{
+    width: 53%;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 32px 0px;
+}
+.box input{
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 22px 0;
+    padding: 10px 22px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    outline: none;
+    margin: 22px 0;
+    padding: 10px 22px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: purple;
+    background: white;
+    font-weight: bold;
+    opacity: 0.5;
+}
